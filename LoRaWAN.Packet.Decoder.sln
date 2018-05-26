@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoRaWAN.Packet.Decoder.Lib", "LoRaWAN.Packet.Decoder.Lib\LoRaWAN.Packet.Decoder.Lib.csproj", "{501840CE-C1DA-4302-81F3-70A8DF83D72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoRaWAN.PacketDecoder.Test", "LoRaWAN.PacketDecoder.Test\LoRaWAN.PacketDecoder.Test.csproj", "{2B95B188-1851-4D6B-AD8D-DE502EA1180B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinApp", "WinApp\WinApp.csproj", "{E3D5A28C-B5CF-4111-A753-FAE9FF8E0E54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501840CE-C1DA-4302-81F3-70A8DF83D72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501840CE-C1DA-4302-81F3-70A8DF83D72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501840CE-C1DA-4302-81F3-70A8DF83D72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501840CE-C1DA-4302-81F3-70A8DF83D72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B95B188-1851-4D6B-AD8D-DE502EA1180B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B95B188-1851-4D6B-AD8D-DE502EA1180B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B95B188-1851-4D6B-AD8D-DE502EA1180B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B95B188-1851-4D6B-AD8D-DE502EA1180B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D5A28C-B5CF-4111-A753-FAE9FF8E0E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D5A28C-B5CF-4111-A753-FAE9FF8E0E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D5A28C-B5CF-4111-A753-FAE9FF8E0E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D5A28C-B5CF-4111-A753-FAE9FF8E0E54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4263884B-5E9E-4A7D-96A2-C5A4B0C75FC3}
+	EndGlobalSection
+EndGlobal
